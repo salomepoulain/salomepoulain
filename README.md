@@ -4,12 +4,11 @@
 
 > A modular kitchen for your project's development environment.
 
-Every project has a part that ships to GitHub and a part that doesn't: local caches, folders that
-should follow you between machines, and the setup you redo for every project of the same kind.
-makery-bakery handles that second part. You hire Stations into a project with `bake first <name>`,
-and each one sets up its own environment and brings its own commands.
-
-It's three repos that work together:
+makery-bakery is a fun and lightweight CLI for the specific setups you keep redoing in every new
+project. Instead of copying files over from your last projects, you hire a specialised Station with
+`bake first <name>`. Its cook sets up the project and stays on, so you can have it bake things for
+you whenever you want. The heart of the stations is tightly integrated with git, and they're easy
+and intuitive to set up. Check it out here:
 
 | Repo | What it is |
 |---|---|
